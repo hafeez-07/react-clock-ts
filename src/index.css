@@ -1,7 +1,7 @@
 @import "tailwindcss";
 @layer components {
   .custom-text {
-    @apply text-2xl font-medium;
+    @apply sm:text-2xl sm:font-medium text-xs font-light;
   }
 }
 /* :root {

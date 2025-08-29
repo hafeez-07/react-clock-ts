@@ -32,8 +32,12 @@ const StopWatch = () => {
   //   in 00:00:00 format
   return (
     <div>
-      <h1 className="text-5xl font-bold my-4"> Stop Watch </h1>
-      <h2 className="bg-slate-900 rounded-2xl shadow-2xl shadow-inner text-4xl text-[#39FF14] font-bold border-2 h-20 w-100 mx-auto my-5 p-4 border-black  ">
+      <h1 className=" text-2xl sm:text-5xl font-bold my-4"> Stop Watch </h1>
+      <h2
+        className="bg-slate-900 rounded-2xl shadow-2xl shadow-inner text-2xl 
+      sm:text-4xl text-[#39FF14] font-bold border-2  h-15 sm:h-20 w-60 sm:w-100
+       mx-auto my-5 p-4 border-black  "
+      >
         {format(hour)} <span className="custom-text">hr</span> :{" "}
         {format(minute)} <span className="custom-text">min</span> :
         {format(second)} <span className="custom-text">sec</span>

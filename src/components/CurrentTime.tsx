@@ -13,8 +13,8 @@ const CurrentTime = () => {
   }, []);
   return (
     <div>
-      <h1 className="text-5xl font-bold my-5">Current time</h1>
-      <div className="border-2 text-2xl border-black w-60 font-bold rounded-2xl mx-auto p-4 bg-gray-800 text-red-400">
+      <h1 className=" text-2xl sm:text-5xl font-bold my-5">Current time</h1>
+      <div className="border-2 text-sm sm:text-2xl border-black w-60 font-bold rounded-2xl mx-auto p-4 bg-gray-800 text-red-400">
         <h2>{time.toLocaleTimeString()}</h2>
         <h2>{time.toDateString()}</h2>
       </div>
