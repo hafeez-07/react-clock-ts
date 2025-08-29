@@ -26,7 +26,7 @@ This app displays the current time in real-time with a clean, responsive design.
 
 ## 📸 Screenshot
 
-![Clock Screenshot](Screenshot.png)
+![Clock Screenshot](screenshot.png)
 
 ---
 
