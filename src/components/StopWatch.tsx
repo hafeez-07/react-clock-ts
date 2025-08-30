@@ -44,19 +44,19 @@ const StopWatch = () => {
       </h2>
       <div className="flex justify-center gap-4">
         <button
-          className="bg-green-500 text-white rounded-2xl p-2 h-9"
+          className="bg-green-500 text-white rounded-2xl p-2 h-9 hover:bg-green-500/60"
           onClick={startHandler}
         >
           Start/resume
         </button>
         <button
-          className="bg-orange-400 p-2 text-white rounded-2xl h-9"
+          className="bg-orange-400 p-2 text-white rounded-2xl h-9 hover:bg-orange-400/60"
           onClick={pauseHandler}
         >
           Pause
         </button>
         <button
-          className="bg-red-500 text-white h-9 p-2 rounded-2xl"
+          className="bg-red-500 text-white h-9 p-2 rounded-2xl hover:bg-red-500/60"
           onClick={resetHandler}
         >
           Reset
