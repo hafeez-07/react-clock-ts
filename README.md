@@ -3,7 +3,9 @@
 A simple **Clock App** built with **React, TypeScript, Vite, and Tailwind CSS**.  
 This app displays the current time in real-time with a clean, responsive design.
 
----
+## 🔗 Live Demo
+
+👉 **[View Live App](https://react-clock-ts.vercel.app)**
 
 ## 🚀 Features
 
