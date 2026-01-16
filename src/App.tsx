@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
-import StopWatch from "../../my-clock/src/components/StopWatch";
-import CurrentTime from "../../my-clock/src/components/CurrentTime";
+import StopWatch from "./components/StopWatch";
+import CurrentTime from "./components/CurrentTime";
 
 function App() {
   return (
